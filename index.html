@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Coffee Break</title>
+
+	<!--Google font link--> 
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- External Css link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--icon link-->
+    <link rel="icon" href="loho.png">
+
+    <!-- Font Awesome link for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--internal Css-->
+    <style>
+  	   body{
+  		  background-image: url("image.jpg");
+  		  background-repeat: no-repeat;
+  		  background-position: center;
+  		  background-size: cover;
+  		  height: 100vh;
+  	   }
+    </style>
+</head>
+<body>
+
+	<!-- Navbar-->
+    <div class="nav-items">
+	   <h1>Coffee Break.</h1>
+	   <div class="nav-links">
+		  <a href="index.html">Home</a>
+		  <a href="coffee.html">Coffee</a>
+        <a href="snacks.html">Snacks</a>
+		  <a href="about.html">About</a>
+		  <a href="contact.html">Contact</a>
+	   </div>
+   </div>
+
+   <!--Home page-->
+   <div class="header">
+     <div class="home-cont">
+		 <h1>Start your day with a perfect<br>cup of coffee</h1>
+		 <p>Explore our wide range of handpicked beans from<br> around the world,expertly roasted to perfection.</p>
+		 <button class="btn" onclick="ordernow()">Order Now</button>
+     </div>
+   </div>
+
+   <!--Menu page-->
+   <div class="menus">
+	  <h1>Coffee</h1>
+   </div>
+
+   <!--Form tag for input box-->
+   <form class="product-search">
+      <input type="text" id="search" placeholder="Search">
+   </form>
+
+   <!--First row-->
+   <div class="products" id="products">
+      <div class="products-container">
+    	  <img src="flat white.jpg" alt="americano">
+    	  <button class="btn-1"> Flat White Rs.50<br> Buy Now </button>
+      </div>
+      <div class="products-container">
+    	   <img src="coff7.jpg" alt="americano">
+         <button class="btn-1"> Macchiato Rs.70 <br>Buy Now </button>
+      </div>
+      <div class="products-container">
+    	   <img src="mocha.jpg" alt="americano">
+    	   <button class="btn-1"> Mocha Rs.40 <br>Buy Now</button>
+      </div>
+      <div class="products-container">
+    	   <img src="choco.jpg" alt="americano">
+    	   <button class="btn-1"> Chocolate Coffee Rs.100 <br>Buy Now </button>
+      </div>
+    </div>
+
+   <!--Second row-->
+   <div class="products" id="products">
+     <div class="products-container">
+    	  <img src="cap.jpg" alt="americano">
+    	  <button class="btn-1">Capachino Rs.60  <br>Buy Now </button>
+     </div>
+     <div class="products-container">
+    	  <img src="cold coffee.jpg" alt="americano">
+    	  <button class="btn-1"> Cold Coffee Rs.80 <br>Buy Now </button>
+     </div>
+     <div class="products-container">
+    	  <img src="horlicks.jpg" alt="americano">
+    	  <button class="btn-1"> Horlicks Rs.30 <br>Buy Now</button>
+     </div>
+     <div class="products-container">
+    	  <img src="coff4.jpg" alt="americano">
+    	  <button class="btn-1"> Black Coffee Rs.40 <br>Buy Now </button>
+     </div>
+   </div>
+
+   <!--Third row-->
+    <div class="products" id="products">
+      <div class="products-container">
+        <img src="nescafe.jpg" alt="americano">
+        <button class="btn-1"> Nescafe Rs.60 <br>Buy Now </button>
+      </div>
+      <div class="products-container">
+        <img src="boost.jpg" alt="americano">
+        <button class="btn-1"> Boost Rs.50 <br>Buy Now </button>
+      </div>
+      <div class="products-container">
+    	  <img src="coff3.jpg" alt="americano">
+    	  <button class="btn-1"> Expresso Rs.40 <br>Buy Now</button>
+      </div>
+      <div class="products-container">
+    	  <img src="bru.jpg" alt="americano">
+    	  <button class="btn-1"> Bru Instant Rs.60 <br>Buy Now </button>
+      </div>
+    </div>
+
+    <!--Fourth row-->
+    <div class="products" id="products">
+      <div class="products-container">
+    	  <img src="coffee.jpg" alt="americano">
+    	  <button class="btn-1">Americano Rs.60  <br>Buy Now </button>
+      </div>
+      <div class="products-container">
+    	  <img src="filter.jpg" alt="americano">
+    	  <button class="btn-1"> Filter Coffee Rs.50 <br>Buy Now </button>
+      </div>
+      <div class="products-container">
+    	  <img src="latte.jpg" alt="americano">
+    	  <button class="btn-1"> Latte Rs.70 <br>Buy Now</button>
+      </div>
+      <div class="products-container">
+    	  <img src="shake.jpg" alt="americano">
+    	  <button class="btn-1"> Coffee Shake Rs.40 <br>Buy Now </button>
+      </div>
+    </div>
+    <!--Horizondal rule-->
+    <hr>
+
+    <!--Snacks-->
+    <div class="snack">
+      <h1>Snacks</h1>
+    </div>
+
+   <!--First row-->
+    <div class="products" id="products">
+      <div class="products-container">
+        <img src="cup.jpg" alt="americano">
+        <button class="btn-1"> Cup Cakes Rs.50 <br>Buy Now </button>
+      </div>
+      <div class="products-container">
+        <img src="donut.jpg" alt="americano">
+        <button class="btn-1"> Donuts Rs.70 <br>Buy Now </button>
+      </div>
+      <div class="products-container">
+        <img src="cookies.jpg" alt="americano">
+        <button class="btn-1"> Cookies Rs.70 <br>Buy Now</button>
+      </div>
+      <div class="products-container">
+        <img src="fries.jpg" alt="americano">
+        <button class="btn-1"> Fries Rs.60 <br>Buy Now </button>
+      </div>
+   </div>
+
+   <!--contact-->
+   <div class="contact">
+      <div class="contact-container">
+        <h1>Contact Us</h1>
+       <form>
+           <input class="input-box" type="text" name="name" placeholder="Name">
+           <input class="input-box"type="text" name="email" placeholder="Email">
+           <input class="input-box"type="number" name="mbl" placeholder="Mobile">
+           <input class="input-box"type="text" name="message" placeholder="Message">
+           <button class="btn-2" type="submit">Submit</button>
+       </form>
+      </div>
+   </div>
+
+
+   <!--Footer-->
+   <div class="footer">
+     <div class="footer-container">
+       <div class="footer-box1">
+          <h1 class="head-text">Coffee Break</h1>
+          <p> We invite you to join us on this journey as we continue to explore the world of coffee</p>
+          <div class="footer-icons">
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i> 
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i> 
+            <i class="fa-brands fa-facebook" style="color: #ffffff;"></i> 
+       </div>
+     </div>
+     <p>@ coffeebreak.com</p>
+   </div>
+ </body>
+
+   <!--JavaScript link-->
+   <script src="script.js"></script>
+</html>

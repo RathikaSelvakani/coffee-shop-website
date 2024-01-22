@@ -1,0 +1,170 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Styling Navbar*/
+.nav-items{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	align-items: center;
+}
+.nav-links,a{
+	margin-right:30px ;
+	text-decoration: none;
+	color: grey;
+	font-weight: bold;
+}
+a:hover{
+   color: purple;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+/*Styling Home page*/
+.home-cont{
+	margin-top: 13%;
+	margin-left: 200px;
+   width:50%;
+}
+
+/*Home page button style*/
+.btn{
+	padding: 20px;
+	border-radius: 10px;
+	background:blueviolet ;
+	color: white;
+	font-weight: bold;
+	font-size: 23px;
+	border: none;
+	margin-left: 100px;
+	margin-top: 30px;
+	width:200px;
+}
+.btn:hover{
+	background: black;
+	color: white;
+	cursor: pointer;
+}
+
+/*Menu page image style*/
+img{
+	width:250px;
+	height: 250px;
+	border-radius: 20px;
+	border-color: none;
+	filter: .4;
+	transition: .3s;
+}
+img:hover{
+	filter: grayscale(0);
+	transform: scale(0.9) rotate(1deg);
+	cursor: pointer;
+}
+
+/*image alignments*/
+.products{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap:wrap;
+	margin-top: 50px;
+}
+.products-container{
+	position: relative;
+	flex-basis: 20%;
+}
+
+/*Input box style*/
+input{
+	width: 70%;
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	margin: auto;
+	margin-left: 200px;
+}
+
+/*styling button under images*/
+.btn-1{
+	width:200px;
+	height:50px;
+	margin-left: 50px;
+	padding: 15px;
+	border-radius: 10px;
+	border: none;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	background-color: white;
+	color: goldenrod;
+	font-size: 15px;
+}
+.btn-1:hover{
+	color: black;
+	background-color: white;
+	cursor:pointer ;
+}
+
+/*Styling menu h1 tags*/
+.menus{
+	margin-top: 13%;
+	margin-left: 45%;
+}
+.snack{
+	margin-top: 30px;
+	margin-left: 45%;
+}
+
+/*Styling about page*/
+.footer{
+	margin-top:20px;
+	padding: 40px;
+	background-color: #1D232C;
+	color:#F2F4F7;
+}
+
+/*Styling contact page*/
+.contact{
+	display: flex;
+	justify-content: center;
+}
+.contact-container{
+	margin-top: 50px;
+	height: 500px;
+	width:800px;
+	background-color: black;
+	color: #ffffff;
+	font-size: 15px;
+	padding:30px;
+	border-radius: 10px;
+}
+
+/*styling input box where contact page*/
+.input-box{
+	width:450px;
+	height: 50px;
+   font-size: 20px;
+   margin-top: 20px;
+}
+
+/*styling submit button where contact page*/ 
+.btn-2{
+	margin-left: 45%;
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	width: 20%;
+}
+.btn-2:hover{
+	background-color: brown;
+	cursor: pointer;
+}
